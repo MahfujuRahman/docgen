@@ -1,0 +1,12 @@
+PUBLISHING_GUIDE.md
+TESTING_GUIDE.md
+
+# Optional: ignore vendor directory when installing dependencies locally
+vendor//vendor/
+/node_modules/
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+composer.lock
