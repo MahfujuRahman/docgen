@@ -1,6 +1,6 @@
 <?php
 
-namespace Ajmain\DocGen;
+namespace SMMahfujurRahman\DocGen;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -45,7 +45,7 @@ class DocGenServiceProvider extends ServiceProvider
         // Publish all assets at once
         $this->publishes([
             __DIR__.'/../config/docgen.php' => config_path('docgen.php'),
-            __DIR__.'/../resources/views' => resource_path('views/documentations'),
+            // __DIR__.'/../resources/views' => resource_path('views/documentations'),
             __DIR__.'/../stubs/docs' => base_path('docs'),
         ], 'docgen');
 

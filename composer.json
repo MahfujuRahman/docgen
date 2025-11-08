@@ -17,6 +17,10 @@
             "email": "mahfujur.dev@gmail.com"
         }
     ],
+     "support": {
+        "issues": "https://github.com/MahfujuRahman/docgen/issues",
+        "source": "https://github.com/MahfujuRahman/docgen"
+    },
     "require": {
         "php": "^8.1|^8.2|^8.3",
         "illuminate/support": "^10.0|^11.0|^12.0",
@@ -24,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ajmain\\DocGen\\": "src/"
+            "SMMahfujurRahman\\DocGen\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ajmain\\DocGen\\DocGenServiceProvider"
+                "SMMahfujurRahman\\DocGen\\DocGenServiceProvider"
             ]
         }
     },
