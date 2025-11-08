@@ -67,7 +67,7 @@ Route::get($routePrefix, function () use ($docsPath) {
         return $catCompare !== 0 ? $catCompare : strcmp($a['filename'], $b['filename']);
     });
 
-    return view('docgen::docs-index', [
+    return view('documentations::docs-index', [
         'files' => $files,
         'totalFiles' => count($files)
     ]);
@@ -110,7 +110,7 @@ Route::get($routePrefix . '/{file}', function ($file) use ($docsPath) {
     $htmlContent = $converter->convert($markdownContent);
 
     // Return the view, passing in the HTML and a title
-    return view('docgen::docs-viewer', [
+    return view('documentations::docs-viewer', [
         'content' => $htmlContent,
         'title' => 'Documentation: ' . basename($file, '.md')
     ]);

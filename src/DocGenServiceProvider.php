@@ -56,8 +56,8 @@ class DocGenServiceProvider extends ServiceProvider
 
         // Load views from published directory first (if exists), then from package
         if (is_dir(resource_path('views/documentations'))) {
-            $this->loadViewsFrom(resource_path('views/documentations'), 'docgen');
+            $this->loadViewsFrom(resource_path('views/documentations'), 'documentations');
         }
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'docgen');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'documentations');
     }
 }

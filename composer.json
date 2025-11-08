@@ -2,6 +2,7 @@
     "name": "smmahfujurrahman/docgen",
     "description": "A beautiful Laravel package for viewing Markdown documentation with GitHub-style rendering",
     "type": "library",
+    "version": "1.0.0",
     "keywords": [
         "laravel",
         "documentation",
