@@ -1,4 +1,6 @@
 # DocGen - Laravel Documentation Viewer
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/smmahfujurrahman/docgen.svg?style=flat-square)](https://packagist.org/packages/smmahfujurrahman/docgen)
+[![Total Downloads](https://img.shields.io/packagist/dt/smmahfujurrahman/docgen.svg?style=flat-square)](https://packagist.org/packages/smmahfujurrahman/docgen)
 
 A beautiful Laravel package for viewing Markdown documentation with GitHub-style rendering, search functionality, and zero configuration.
 
